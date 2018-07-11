@@ -10,11 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2018_07_09_221951) do
-=======
-ActiveRecord::Schema.define(version: 2018_06_30_204516) do
->>>>>>> master
 
   create_table "blogs", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "title"
@@ -33,7 +29,6 @@ ActiveRecord::Schema.define(version: 2018_06_30_204516) do
     t.datetime "updated_at", null: false
   end
 
-<<<<<<< HEAD
   create_table "skills", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "title"
     t.integer "percent_utilized"
@@ -41,6 +36,4 @@ ActiveRecord::Schema.define(version: 2018_06_30_204516) do
     t.datetime "updated_at", null: false
   end
 
-=======
->>>>>>> master
 end
