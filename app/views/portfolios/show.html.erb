@@ -1,0 +1,7 @@
+<%= image_tag Portfolio.find(params[:id]).thumb_image %>
+
+<h1><%= Portfolio.find(params[:id]).title %></h1>
+
+<em><%= Portfolio.find(params[:id]).subtitle %></em>
+
+<p><%= Portfolio.find(params[:id]).body %></p>
