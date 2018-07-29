@@ -1,7 +1,13 @@
-<%= image_tag Portfolio.find(params[:id]).thumb_image %>
+<%= image_tag @portfolio_item.main_image %>
 
-<h1><%= Portfolio.find(params[:id]).title %></h1>
+<h1><%= @portfolio_item.title %></h1>
 
-<em><%= Portfolio.find(params[:id]).subtitle %></em>
+<em><%= @portfolio_item.subtitle %></em>
 
-<p><%= Portfolio.find(params[:id]).body %></p>
+<p><%= @portfolio_item.body %></p>
+
+<h2>Technologies Used:</h2>
+
+<% @portfolio_item.technologies.each do |t| %>
+<p><%= t.name %></p>
+<% end %>
