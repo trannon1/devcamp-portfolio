@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/trannon1/devcamp_view_tool
+  revision: 6e01ef6f9dfd368bd775d03f0781b3ab395ff614
+  specs:
+    devcamp_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -59,7 +65,7 @@ GEM
       sass (>= 3.5.2)
     builder (3.2.3)
     byebug (10.0.2)
-    capybara (3.4.2)
+    capybara (3.5.0)
       addressable
       mini_mime (>= 0.1.3)
       nokogiri (~> 1.8)
@@ -223,6 +229,7 @@ DEPENDENCIES
   capybara (>= 2.15, < 4.0)
   chromedriver-helper
   coffee-rails (~> 4.2)
+  devcamp_view_tool!
   devise (~> 4.4, >= 4.4.3)
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)
