@@ -66,3 +66,4 @@ gem 'devise', '~> 4.4', '>= 4.4.3'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 
 gem 'devcamp_view_tool', git: 'https://github.com/trannon1/devcamp_view_tool'
+gem 'petergate', '~> 1.7'
