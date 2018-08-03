@@ -67,3 +67,5 @@ gem 'bootstrap', '~> 4.0.0.alpha6'
 
 gem 'devcamp_view_tool', git: 'https://github.com/trannon1/devcamp_view_tool'
 gem 'petergate', '~> 1.7'
+gem 'font-awesome-rails', '~> 4.6', '>= 4.6.3.1'
+gem 'kaminari', '~> 1.1', '>= 1.1.1'
