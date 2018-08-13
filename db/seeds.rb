@@ -1,7 +1,7 @@
 User.create!(
-  email: "test@test.com",
-  password: "asdfasdf",
-  password_confirmation: "asdfasdf",
+  email: "tester@test.com",
+  password: "testtest",
+  password_confirmation: "testtest",
   name: "Admin User",
   roles: "site_admin"
 )
@@ -9,10 +9,10 @@ User.create!(
 puts "1 Admin user created"
 
 User.create!(
-  email: "test2@test.com",
-  password: "asdfasdf",
-  password_confirmation: "asdfasdf",
-  name: "Regular User",
+  email: "test@test.com",
+  password: "testtest",
+  password_confirmation: "testtest",
+  name: "Guest User"
 )
 
 puts "1 regular user created"

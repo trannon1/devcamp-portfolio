@@ -4,6 +4,7 @@
     <p class="lead blog-description">Musings from my development journey.</p>
     <span>
       <%= link_to 'Write a New Blog', new_blog_path if logged_in?(:site_admin) %>
+      <%= link_to 'Add new topic', new_topic_path if logged_in?(:site_admin) %>
     </span>
     <span>
       <%= link_to "Topics", topics_path %>
