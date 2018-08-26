@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <%= render "shared/application_nav" %>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><%= @page_title %></title>
@@ -15,7 +16,6 @@
   </head>
 
   <body>
-    <%= render "shared/application_nav" %>
     <%= render 'shared/portfolio_masthead' %>
 
     <%= yield %>
